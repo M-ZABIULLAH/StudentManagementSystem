@@ -51,5 +51,16 @@ public class Student {
             System.out.println("The GPA must be between 0 and 20.");
         }
     }
-
+// to show the information of the student
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", studentNumber='" + studentNumber + '\'' +
+                ", age=" + age +
+                ", gpa=" + gpa +
+                '}';
+    }
 }
